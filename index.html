@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <link href="css/style.css" rel='stylesheet' type='text/css'>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/responsiveslides.js"></script>
+	<script src="js/scripts.js"></script>
+    
+    <script>
+		$(function() {
+			$(".rslides").responsiveSlides();
+		});
+	</script>
+    
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Home</h1>
+      </ion-header-bar>
+      <ion-content>
+
+        <div class="row">
+            <ul class="rslides rslides1">
+            	<li id="rslides1_s0" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out; -webkit-transition: opacity 500ms ease-in-out;" class="">
+	            <img src="img/pic1.jpg">
+            </li>
+            <li id="rslides1_s1" style="float: left; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 500ms ease-in-out; -webkit-transition: opacity 500ms ease-in-out;" class="rslides1_on">
+            <img src="img/pic2.jpg"></li><li id="rslides1_s2" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out; -webkit-transition: opacity 500ms ease-in-out;" class="">
+            <img src="img/pic3.png"></li><li id="rslides1_s3" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out; -webkit-transition: opacity 500ms ease-in-out;">
+            <img src="img/pic4.jpg">
+            	</li>
+            </ul>
+            <div class="index-title">
+                <h1>المكتب التعاوني </h1>
+            </div>
+        </div>
+        <!-- END Slider -->
+        <div class="row-slide">
+            <p>مجالات العمل في قطاع العمل الخيري عديدة ومتنوعة خصوصا ان كانت تقام وفق معايير تساعد على نجاحها و استمرارها في بيئة تعزز العمل التطوعي و الخيري و تساعد في الابداع فيه </p>
+        
+        
+            <a style="right: 0px; left: 0px; position: static;" href="menupage.html">
+            	<img alt="img" src="img/welcomeBtn.png" style="width: 50%; margin: 0px auto; padding-top: 10px;">
+            </a>
+        
+        </div>      
+      
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

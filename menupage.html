@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+	<style type="text/css">
+/*	
+	.largeButtonMenuImgContaineriPad {
+	  min-width: 225px;
+	  width: 30%;
+	  min-height: 136px;
+	  height: 28%;
+	  background-repeat: no-repeat;
+	  border-radius: 10px;
+	  background-position: center 0;
+	  background: rgb(247, 247, 247);
+	  margin-bottom: 6px;
+	  -webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	  -khtml-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	}
+	
+	.largeButtonMenuImageiPad {
+	  padding: 0px;
+	  min-width: 225px;
+	  width: 30%;
+	}
+	
+	.largeButtonMenuItemBgiPad {
+	  min-width: 225px;
+	  width: 30%;
+	  text-align: center;
+	  font-size: 18px;
+	  font-family: STHeitiTC-Light, Tahoma;
+	  font-weight: 100;
+	}
+
+	img.largebuttonmenucenteriPad {
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 15px;
+	}
+*/	
+	.largeButtonMenuImgContainer {
+	  min-width: 150px;
+	  width: 95%;
+	  min-height: 120px;
+	  height: 28%;
+	  border-radius: 5px;
+	  background: rgb(247, 247, 247);
+	  background-repeat: no-repeat;
+	  margin-bottom: 5px;
+	  -webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	  -khtml-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	}	
+	
+	.largeButtonMenuImage {
+	  min-width: 150px;
+	  width: 30%;
+	  padding: 0px;
+	}
+	
+	.largeButtonMenuItemBg {
+	  min-width: 150px;
+	  width: 30%;
+	  text-align: center;
+	  color: #000000;
+	  font-size: 18px;
+	  font-family: STHeitiTC-Light, Tahoma;
+	  font-weight: 100;
+	  padding-top: 5px;
+	}
+	
+	img.largebuttonmenucenter {
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 15px;
+	  max-width: 64px;
+	}
+    </style>
+    
+    
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Menu Page</h1>
+      </ion-header-bar>
+      <ion-content>    
+
+<table id="mosaictable" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>	
+		<tr>
+
+			<td align="center">
+				<div class="largeButtonMenuImgContainer">
+                	<a href="dawa.html">
+                		<img src="img/dawa.png" class="largebuttonmenucenter" title="Item1"> 
+						<div class="largeButtonMenuItemBg">الدعوة</div>
+					</a>
+                </div>
+			</td>
+
+			<td align="center"> 
+				<div class="largeButtonMenuImgContainer">
+                	<a href="gallery.html">
+                		<img src="img/care.png" class="largebuttonmenucenter" title="Item2"> 
+						<div class="largeButtonMenuItemBg">الإعانة</div>
+					</a>
+                </div>
+			</td>
+
+		</tr>
+
+		<tr>
+
+			<td align="center">
+				<div class="largeButtonMenuImgContainer">
+                	<a href="contest.html">
+                        <img src="img/trans.png" class="largebuttonmenucenter" title="Item1"> 
+                        <div class="largeButtonMenuItemBg">Trans</div>
+					</a>
+                </div>
+			</td>
+
+			<td align="center">
+				<div class="largeButtonMenuImgContainer">
+                	<a href="donate.html">
+                        <img src="img/aid.png" class="largebuttonmenucenter" title="Item1"> 
+                        <div class="largeButtonMenuItemBg">التبرع</div>
+					</a>
+                </div>
+			</td>
+		</tr>
+        
+		<tr>
+			<td align="center">
+				<div class="largeButtonMenuImgContainer">
+                	<a href="translate.html">
+                        <img src="img/translate.png" class="largebuttonmenucenter" title="Item1"> 
+                        <div class="largeButtonMenuItemBg">Translate</div>
+					</a>
+                </div>
+			</td>
+
+			<td align="center">
+				<div class="largeButtonMenuImgContainer">
+                	<a href="myQuiz.html">
+                        <img src="img/tran.png" class="largebuttonmenucenter" title="Item2"> 
+                        <div class="largeButtonMenuItemBg">Tran</div>
+					</a>
+                </div>
+			</td>
+
+		</tr>
+        
+		<tr>
+			<td align="center">
+				<div class="largeButtonMenuImgContainer">
+                	<a href="shareimage.html">
+                		<img src="img/contest.png" class="largebuttonmenucenter" title="Item1"> 
+						<div class="largeButtonMenuItemBg">المسابقات</div>                        
+					</a>
+                </div>
+			</td>
+
+			<td align="center">
+				<div class="largeButtonMenuImgContainer">
+                	<a href="contact.html">
+                        <img src="img/Office.png" class="largebuttonmenucenter" title="Item2"> 
+                        <div class="largeButtonMenuItemBg">Contact Office</div>
+					</a>
+                </div>
+			</td>
+
+		</tr>
+                
+	</tbody>
+</table>
+      
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>
