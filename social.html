@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Social Media</title>
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <link href="css/style.css" rel='stylesheet' type='text/css'>
+    
+    <style type="text/css">
+	.scroll section p{
+		float: left;
+	}
+	
+	.secOdd {
+		background-color: #E6E6E6;
+	}
+	</style>
+    
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Social Media Page</h1>
+      </ion-header-bar>
+      <ion-content>    
+      
+      <section class="secOdd">
+      	<a href="www.facebook.com/user/hafrjalyat">
+	   		<img src="img/facebook.png">
+        	<p>@Hafrjalyat</p>
+        </a>
+      </section>
+	  <div style="clear:both"></div>
+	  
+      <section>
+      	<a href="www.twitter.com/user/hafrjalyat">
+	   		<img src="img/twitter.png">
+        	<p>@Hafrjalyat</p>
+      	</a>
+      </section >      
+      <div style="clear:both"></div>
+	  
+      <section class="secOdd">
+      	<a href="www.youtube.com/user/hafrjalyat">
+		  	<img src="img/youtube.png">
+    	    <p>@Hafrjalyat</p>
+		</a>            
+      </section>      
+      <div style="clear:both"></div>
+	  
+      <section>
+      	<a href="tel:050123123">
+            <img src="img/whatsapp.png">
+	        <p>add 050 123 123</p>
+        </a>
+      </section>      
+      <div style="clear:both"></div>
+	  
+      <section class="secOdd">
+      	<a href="tel:0505123123">
+	   	 <img src="img/call.png">
+         <p>Click here to call us</p>
+        </a>
+      </section>      
+      
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>
